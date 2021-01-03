@@ -27,6 +27,7 @@ def long_planeteer_calls(planeteer_calls)
       return false
     end
   end
+  return true
 end
 
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
