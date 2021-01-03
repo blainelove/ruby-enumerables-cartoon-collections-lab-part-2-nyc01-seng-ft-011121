@@ -3,14 +3,13 @@ def square_array(array)
   array.each do |element|
     new_array << element * element
   end
-  new_array
 end
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
 end
 
 def summon_captain_planet(planeteer_calls)
-  
+
   end
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
