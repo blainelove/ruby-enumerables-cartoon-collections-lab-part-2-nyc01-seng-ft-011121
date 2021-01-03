@@ -29,9 +29,7 @@ def long_planeteer_calls(planeteer_calls)
   end
   return false
 end
-blah = ["earth", "wind", "fire", "water", "heart"]
-p "*****************************"
-p long_planeteer_calls(blah)
+
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
 
