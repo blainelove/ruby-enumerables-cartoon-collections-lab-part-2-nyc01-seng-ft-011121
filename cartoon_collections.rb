@@ -40,7 +40,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.each do |element|
     if valid_calls[numb] = element
       return element
-
     end
     numb += 1
   end
