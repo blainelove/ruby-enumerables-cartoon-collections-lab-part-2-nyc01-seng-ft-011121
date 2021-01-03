@@ -10,7 +10,8 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map do |element|
+  new_array
+  planeteer_calls.each do |element|
     element.upcase + !
   end
 
