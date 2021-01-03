@@ -35,13 +35,10 @@ end
 
 
 def find_valid_calls(planeteer_calls)
-  numb = 0
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.each do |element|
-    if element = valid_calls[numb]
-      return element
+    valid_calls.include? element
     end
-    numb += 1
   end
   return nil
 
